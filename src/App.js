@@ -12,6 +12,7 @@ export default function App() {
       <Stack direction="column" spacing={2} mt={2}>
         <Description />
         <ImageComponent />
+        <ToDoList />
       </Stack>
     </Container>
   );
