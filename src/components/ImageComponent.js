@@ -6,7 +6,7 @@ const ImageComponent = () => {
   // imageUrl og description props kan endres av kursdeltakerne
   return (
     <Card sx={{ my: 4 }}>
-      <img src={imageUrl} alt="" height={400} />
+      <img src={imageUrl} alt="" />
     </Card>
   );
 };
